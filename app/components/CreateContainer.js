@@ -3,14 +3,18 @@ import React from 'react';
 export default function CreateContainer (props) {
     //not a container... yet
 
+    console.log(props)
+
     //the idea for doing markup with $object is that since both campus and students have two fields we could reuse the
     //same container,not sure if it would work yet cause of the logic but for nw I'll use that
 
     //Object sencond argument can be email or img route
 
+    //and now that I think it also works for edit
+
     return (
         <div style={{marginTop: '20px'}}>
-            <h3>Create $object</h3>
+            <h3>Create/ Edit {props.name}</h3>
             <form>
                 <div className="form-group row">
                     <div className="col-md-6 col-xs-12">

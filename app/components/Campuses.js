@@ -5,34 +5,37 @@ export default function Campuses (props) {
     return (
             <div className="row">
                 <div className="col-sm-6 col-md-4">
-                    <a href="">
+                    <Link to='/students'>
                         <div className="thumbnail">
                             <img src="scott-webb-12981.jpg" alt="..."/>
                             <div className="caption">
                                 <h3>Campus Name</h3>
                             </div>
                         </div>
-                    </a>
+                    </Link>
                 </div>
+
                 <div className="col-sm-6 col-md-4">
-                    <a href="">
+                    <Link to='/students'>
                         <div className="thumbnail">
                             <img src="scott-webb-12981.jpg" alt="..."/>
                             <div className="caption">
                                 <h3>Campus Name</h3>
                             </div>
                         </div>
-                    </a>
+                    </Link>
                 </div>
+
+
                 <div className="col-sm-6 col-md-4">
-                    <a href="">
+                    <Link to='/students'>
                         <div className="thumbnail">
                             <img src="scott-webb-12981.jpg" alt="..."/>
                             <div className="caption">
                                 <h3>Campus Name</h3>
                             </div>
                         </div>
-                    </a>
+                    </Link>
                 </div>
 
                 <div className="col-xs-12 center-div">

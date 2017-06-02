@@ -46,18 +46,18 @@ export default function Students () {
                      <td>@email</td>
                      <td>Campus1</td>
                      <td>
-                         <a href="">
+                         <Link to='student/edit'>
                          <button type="button" className="btn btn-default btn-small">
                              <span className="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                          </button>
-                        </a>
+                         </Link>
                      </td>
                      <td>
-                         <a href="">
+                         <Link to='student/edit'>
                              <button type="button" className="btn btn-default btn-danger btn-small">
                                  <span className="glyphicon glyphicon-remove" aria-hidden="true"></span>
                              </button>
-                         </a>
+                         </Link>
                      </td>
                  </tr>
                  <tr>
@@ -66,18 +66,18 @@ export default function Students () {
                      <td>@email</td>
                      <td>Campus1</td>
                      <td>
-                         <a href="">
+                         <Link to='student/edit'>
                              <button type="button" className="btn btn-default btn-small">
                                  <span className="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                              </button>
-                         </a>
+                         </Link>
                      </td>
                      <td>
-                         <a href="">
+                         <Link to='student/edit'>
                              <button type="button" className="btn btn-default btn-danger btn-small">
                                  <span className="glyphicon glyphicon-remove" aria-hidden="true"></span>
                              </button>
-                         </a>
+                         </Link>
                      </td>
                  </tr>
                  <tr>
@@ -86,18 +86,18 @@ export default function Students () {
                      <td>@email</td>
                      <td>Campus1</td>
                      <td>
-                         <a href="">
+                         <Link to='student/edit'>
                              <button type="button" className="btn btn-default btn-small">
                                  <span className="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                              </button>
-                         </a>
+                         </Link>
                      </td>
                      <td>
-                         <a href="">
+                         <Link to='student/edit'>
                              <button type="button" className="btn btn-default btn-danger btn-small">
                                  <span className="glyphicon glyphicon-remove" aria-hidden="true"></span>
                              </button>
-                         </a>
+                         </Link>
                      </td>
                  </tr>
              </tbody>
