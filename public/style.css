@@ -1,0 +1,18 @@
+.campus {
+    height: 100px;
+    float: left;
+}
+
+h3 {
+    text-align: center;
+}
+
+.meta{
+    padding-bottom: 55px;
+    overflow: auto
+}
+
+.center-div{
+    float: none;
+    margin: 0 auto;
+}
